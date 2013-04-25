@@ -1,4 +1,3 @@
-thorgerson
-==========
+![thorgerson](Logo/logo.png)
 
-.NET Blog engine for hackers, named after the late Storm E. Thorgerson
+.NET Blog engine for lazy hackers, named after the late **Storm E. Thorgerson**
