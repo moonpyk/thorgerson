@@ -304,10 +304,10 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Layouts\Core.cshtml" />
-    <Content Include="Views\Layouts\Fluid.cshtml" />
-    <Content Include="Views\Layouts\Narrow.cshtml" />
-    <Content Include="Views\Layouts\Sticky.cshtml" />
+    <Content Include="Views\Layouts\_Core.cshtml" />
+    <Content Include="Views\Layouts\_Fluid.cshtml" />
+    <Content Include="Views\Layouts\_Narrow.cshtml" />
+    <Content Include="Views\Layouts\_Sticky.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
