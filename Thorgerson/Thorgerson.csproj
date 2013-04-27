@@ -144,6 +144,9 @@
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\Login.css">
+      <DependentUpon>Login.scss</DependentUpon>
+    </Content>
     <Content Include="Content\Narrow.css">
       <DependentUpon>Narrow.scss</DependentUpon>
     </Content>
@@ -213,6 +216,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="Global.asax" />
+    <None Include="Content\Login.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.scss</DependentUpon>
@@ -308,6 +312,7 @@
     <Content Include="Views\Layouts\_Fluid.cshtml" />
     <Content Include="Views\Layouts\_Narrow.cshtml" />
     <Content Include="Views\Layouts\_Sticky.cshtml" />
+    <Content Include="Views\Layouts\_Login.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

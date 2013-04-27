@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Layouts/_Core.cshtml";
+}
+
+@section head
+{
+    @Styles.Render("~/Content/site_login")
+    @RenderSection("head", false)
+}
+
+@section scripts
+{
+    @RenderSection("scripts", false)
+}
+
+<div class="container">
+    @RenderBody()
+</div>

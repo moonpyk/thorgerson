@@ -26,7 +26,8 @@ namespace Thorgerson
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/modernizr-*"
             ));
-
+            
+            // Bootstrap templates
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/Site.css"
             ));
@@ -37,6 +38,10 @@ namespace Thorgerson
 
             bundles.Add(new StyleBundle("~/Content/site_sticky").Include(
                 "~/Content/Sticky.css"
+            ));
+
+            bundles.Add(new StyleBundle("~/Content/site_login").Include(
+                "~/Content/Login.css"
             ));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
