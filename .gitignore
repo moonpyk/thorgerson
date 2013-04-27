@@ -110,4 +110,8 @@ UpgradeLog*.XML
 # SASS
 .sass-cache/
 
+# Jetbrains .idea
+.idea/
+
+# User data files
 App_Data/
