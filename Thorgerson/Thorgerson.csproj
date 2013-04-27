@@ -143,6 +143,7 @@
     <Content Include="App_Data\empty.txt" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
+    <Content Include="Content\img\logo.png" />
     <Content Include="Content\Narrow.css">
       <DependentUpon>Narrow.scss</DependentUpon>
     </Content>
