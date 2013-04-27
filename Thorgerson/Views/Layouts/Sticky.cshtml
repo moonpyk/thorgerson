@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Layouts/Core.cshtml";
+}
+
+
+@section head
+{
+    @RenderSection("head", false)
+    @Styles.Render("~/Content/site_sticky")
+}
+
+@section scripts
+{
+    @RenderSection("scripts", false)
+}
+
+<div id="wrap">
+    <div class="container">
+        @RenderBody()
+    </div>
+    <div id="push"></div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p class="muted credit">Thorgerson &copy; <a target="_blank" href="http://www.moonpyk.net">@@Moonpyk</a> - @DateTime.Now.Year</p>
+    </div>
+</div>

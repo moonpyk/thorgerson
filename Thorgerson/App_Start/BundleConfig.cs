@@ -35,6 +35,10 @@ namespace Thorgerson
                 "~/Content/Narrow.css"
             ));
 
+            bundles.Add(new StyleBundle("~/Content/site_sticky").Include(
+                "~/Content/Sticky.css"
+            ));
+
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                 "~/Content/themes/base/jquery.ui.css"
             ));
