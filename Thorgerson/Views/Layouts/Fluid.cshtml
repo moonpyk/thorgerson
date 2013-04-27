@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Layouts/Core.cshtml";
+}
+<div class="container-fluid">
+    @RenderBody()
+</div>
+
+@section head
+{
+    @RenderSection("head", false)
+}
+
+@section scripts
+{
+    @RenderSection("scripts", false)
+}
