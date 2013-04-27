@@ -9,22 +9,26 @@ namespace Thorgerson
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                "~/Scripts/jquery-{version}.js"
+            ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
+                 "~/Scripts/jquery-ui-{version}.js"
+            ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.unobtrusive*",
-                        "~/Scripts/jquery.validate*"));
+                "~/Scripts/jquery.unobtrusive*",
+                "~/Scripts/jquery.validate*"
+            ));
 
             // Utilisez la version de développement de Modernizr pour développer et apprendre. Puis, lorsque vous êtes
             // prêt pour la production, utilisez l'outil de génération sur http://modernizr.com pour sélectionner uniquement les tests dont vous avez besoin.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                "~/Scripts/modernizr-*"
+            ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                "~/Content/site.css"
+                "~/Content/Site.css"
             ));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(

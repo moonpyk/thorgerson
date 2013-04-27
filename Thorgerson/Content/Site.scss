@@ -2,3 +2,26 @@ $iconSpritePath:      "img/glyphicons-halflings.png";
 $iconWhiteSpritePath: "img/glyphicons-halflings-white.png";
 
 @import "bootstrap/bootstrap";
+
+// ASP MVC Required
+.field-validation-valid {
+    display: none;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.field-validation-error {
+    color: #f00;
+}
