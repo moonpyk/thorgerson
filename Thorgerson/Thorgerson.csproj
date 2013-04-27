@@ -143,6 +143,9 @@
     <Content Include="App_Data\empty.txt" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
+    <Content Include="Content\Narrow.css">
+      <DependentUpon>Narrow.scss</DependentUpon>
+    </Content>
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -269,6 +272,7 @@
     <Content Include="CodeTemplates\AddView\CSHTML\Edit.tt" />
     <Content Include="CodeTemplates\AddView\CSHTML\Empty.tt" />
     <Content Include="CodeTemplates\AddView\CSHTML\List.tt" />
+    <Content Include="Content\Narrow.scss" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -297,6 +301,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Layouts\Core.cshtml" />
     <Content Include="Views\Layouts\Fluid.cshtml" />
+    <Content Include="Views\Layouts\Narrow.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

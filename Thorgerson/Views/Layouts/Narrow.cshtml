@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Layouts/Core.cshtml";
+}
+
+@section head
+{
+    @RenderSection("head", false)
+    @Styles.Render("~/Content/site_narrow")
+}
+
+@section scripts
+{
+    @RenderSection("scripts", false)
+}
+
+<div class="container-narrow">
+    <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="muted">Thorgerson</h3>
+    </div>
+    <hr>
+
+    @RenderBody()
+
+    <hr>
+
+    <div class="footer">
+        <p>&copy; <a target="_blank" href="http://www.moonpyk.net">@@Moonpyk</a> @DateTime.Now.Year</p>
+    </div>
+
+</div>
